@@ -31,6 +31,7 @@ namespace MVCJqueryDataTables
                       "~/Content/site.css"));
 
             bundles.Add(new StyleBundle("~/Content/datatables").Include("~/Content/jquery.dataTables.css"));
+            bundles.Add(new StyleBundle("~/Content/pygment").Include("~/Content/pygment_trac.css"));
         }
     }
 }
